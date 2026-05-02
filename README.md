@@ -33,7 +33,7 @@ brew install ffmpeg && brew install --cask iina
 ### Quick install (Linux/macOS)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/gimp-animation-plugin/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/marcusg33/gimp_animation_plugin/main/install.sh | bash
 ```
 
 ### Manual install
