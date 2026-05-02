@@ -17,7 +17,7 @@ if [[ -f "$LOCAL_PLUGIN" ]]; then
     SOURCE="$LOCAL_PLUGIN"
 else
     # Being piped via curl — download the plugin alongside this script
-    GITHUB_RAW="https://raw.githubusercontent.com/marcusg33/gimp-animation-plugin/main/${PLUGIN_FILE}"
+    GITHUB_RAW="https://raw.githubusercontent.com/marcusg33/gimp_animation_plugin/main/${PLUGIN_FILE}"
     TMP_DIR="$(mktemp -d)"
     trap 'rm -rf "$TMP_DIR"' EXIT
     echo "Downloading ${PLUGIN_FILE}…"
